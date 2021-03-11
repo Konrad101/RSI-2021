@@ -7,8 +7,6 @@ public class Xmlrpcklient {
     private static final int SERVER_PORT = 5001;
 
     private static void printInfo() {
-        System.out.println("Konrad Hajduga, 246995");
-        System.out.println("Radosław Ścigała, 246997");
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Date date = new Date(System.currentTimeMillis());
         System.out.println(formatter.format(date));
