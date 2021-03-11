@@ -60,10 +60,10 @@ public class SerwerRPC {
         String[] list = new String[3];
         list[0] = "Method: parseDateToDateFormat\n" +
                 "Arguments: String dateStr, String printFormat, boolean showLeapYearInfo\n" +
-                "Description: Konrad wypelni.\n";
+                "Description: Method that modify string date to string date with chosen format.\n";
         list[1] = "Method: getResult\n" +
                 "Arguments: int number, String name, boolean isMale\n" +
-                "Description: Konrad wypelni.\n";
+                "Description: Method that return information about parameters.\n";
         list[2] = "Method: checkTime\n" +
                 "Arguments: int timeToSleep\n" +
                 "Description: Simple method to check if current system time in millis is odd.\n";
