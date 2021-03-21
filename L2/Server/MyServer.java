@@ -1,3 +1,6 @@
+import Task.ComputeTask;
+import Task.IComputeTask;
+
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
@@ -20,10 +23,12 @@ public class MyServer {
         }
 
         try {
-            CalcObject calcObj = new CalcObjImpl();
-            java.rmi.Naming.rebind(args[0], calcObj);
-            CalcObject2 calcObj2 = new CalcObjImpl2();
-            java.rmi.Naming.rebind(args[1], calcObj2);
+            IComputeTask computeTask = new ComputeTask();
+            java.rmi.Naming.rebind(args[0], computeTask);
+//            CalcObject calcObj = new CalcObjImpl();
+//            java.rmi.Naming.rebind(args[0], calcObj);
+//            CalcObject2 calcObj2 = new CalcObjImpl2();
+//            java.rmi.Naming.rebind(args[1], calcObj2);
             System.out.println("Server is registered now :-)");
             System.out.println("Press Ctrl+C to stop...");
         } catch (Exception e) {
