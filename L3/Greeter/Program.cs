@@ -11,6 +11,8 @@ namespace Greeter
 {
     public class Program
     {
+        // Framework .NET 5.0
+        
         static void PrintInfo()
         {
             WriteLine("Konrad Hajduga, 246995");

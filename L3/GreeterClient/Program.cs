@@ -1,5 +1,6 @@
 ﻿using Grpc.Net.Client;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using static System.Console;
 
@@ -7,7 +8,9 @@ namespace GreeterClient
 {
     class Program
     {
-        const string address = "http://25.43.220.53:5001";
+        // Framework .NET 5.0
+
+        const string address = "http://25.44.47.26:5001";
 
         static void PrintInfo()
         {
@@ -28,20 +31,39 @@ namespace GreeterClient
             // 2, 1, 4      Brak rozwiazan rzeczywistych
             // 1, 4, 4      1 rozwiazanie
             // 1, 1, -6     2 rozwiazania
-            double a = 2;
-            double b = 1;
-            double c = 4;
+            List<double> coefficients = ReadCoefficients();
 
             var reply = await client.QuadraticFunctionAsync(new QuadraticFunctionRequest { 
-                A = a,
-                B = b,
-                C = c
+                A = coefficients[0],
+                B = coefficients[1],
+                C = coefficients[2]
             });
         
             WriteLine("From server: ");
             PrintQuadraticFunctionReply(reply.ReplyCode, reply.X1, reply.X2, reply.Extr);
             WriteLine("Press any key to exit...");
             ReadKey();
+        }
+
+        private static List<double> ReadCoefficients()
+        {
+            WriteLine("Wprowadź współczynniki:");
+            string[] coefficients = { "A", "B", "C" };
+            List<double> numbers = new List<double>();
+            foreach(var coefficient in coefficients)
+            {
+                bool success;
+                double coef;
+                do
+                {
+                    Write($"{coefficient} = ");
+                    string numberStr = ReadLine();
+                    success = double.TryParse(numberStr, out coef);
+                } while (!success);
+                numbers.Add(coef);
+            }
+
+            return numbers;
         }
 
         private static void PrintQuadraticFunctionReply(int replyCode, double x1, double x2, double extr)
