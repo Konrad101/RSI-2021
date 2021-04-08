@@ -1,0 +1,35 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "GreeterClient";
+
+package greet;
+
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply);
+  rpc QuadraticFunction (QuadraticFunctionRequest) returns (QuadraticFunctionReply);
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings.
+message HelloReply {
+  string message = 1;
+}
+
+message QuadraticFunctionRequest {
+  double a = 1;
+  double b = 2;
+  double c = 3;
+}
+
+message QuadraticFunctionReply {
+  double extr = 1;
+  double x1 = 2;
+  double x2 = 3;
+  int32 replyCode = 4; 
+}

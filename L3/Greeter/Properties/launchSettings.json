@@ -1,0 +1,12 @@
+﻿{
+  "profiles": {
+    "Greeter": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "applicationUrl": "http://25.43.220.53:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
