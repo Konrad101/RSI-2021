@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="605aff81-f5db-4dd6-b119-4f4cd7f5b036" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:10001/summary" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="summary.disco" MetadataType="Disco" ID="cbb130cd-956d-4087-962e-916f3c8263dd" SourceId="1" SourceUrl="http://localhost:10001/summary?disco" />
+    <MetadataFile FileName="summary1.xsd" MetadataType="Schema" ID="a219a56b-f5ae-40f2-9be6-29486abf961f" SourceId="1" SourceUrl="http://localhost:10001/summary?xsd=xsd2" />
+    <MetadataFile FileName="CurrencyTickProvider.wsdl" MetadataType="Wsdl" ID="6bba8ebf-066c-429a-857a-23704cbec2fe" SourceId="1" SourceUrl="http://localhost:10001/summary?wsdl" />
+    <MetadataFile FileName="summary2.xsd" MetadataType="Schema" ID="ff16952e-d2d4-4639-8a52-7eb20a286b4a" SourceId="1" SourceUrl="http://localhost:10001/summary?xsd=xsd1" />
+    <MetadataFile FileName="summary3.xsd" MetadataType="Schema" ID="d4a5bb37-53aa-4d53-86f3-64b13be388bd" SourceId="1" SourceUrl="http://localhost:10001/summary?xsd=xsd0" />
+    <MetadataFile FileName="summary4.xsd" MetadataType="Schema" ID="e7ee77e2-b86b-4e75-b3dd-4dd8691f8125" SourceId="1" SourceUrl="http://localhost:10001/summary?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

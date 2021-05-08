@@ -1,0 +1,10 @@
+
+Lab5/.vs/
+
+*.sln
+
+Lab5/packages/
+
+bin/
+
+obj/

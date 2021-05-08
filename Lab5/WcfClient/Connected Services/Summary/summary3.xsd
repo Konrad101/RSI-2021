@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:10001/summary?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfCallbackServiceContract.APIConnection" />
+  <xs:element name="GetResultSummaries">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="summariesAmount" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetResultSummariesResult">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/WcfCallbackServiceContract.APIConnection" minOccurs="0" name="summaries" nillable="true" type="q1:ArrayOfResultSummary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
