@@ -22,12 +22,12 @@
     <MetadataSource Address="http://localhost:10001/tick" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="CurrencyTickProvider.wsdl" MetadataType="Wsdl" ID="a395d86f-0d40-4496-8dc1-ec2f852d33d9" SourceId="1" SourceUrl="http://localhost:10001/tick?wsdl" />
-    <MetadataFile FileName="tick.xsd" MetadataType="Schema" ID="37da66df-12df-406d-a37c-00da49a4b08e" SourceId="1" SourceUrl="http://localhost:10001/tick?xsd=xsd1" />
-    <MetadataFile FileName="tick1.xsd" MetadataType="Schema" ID="1e2e2951-7c63-4cfc-827f-3b51c3976a2b" SourceId="1" SourceUrl="http://localhost:10001/tick?xsd=xsd3" />
-    <MetadataFile FileName="tick.disco" MetadataType="Disco" ID="a3c26a77-8901-4fb1-b674-a2bb5b11e1bf" SourceId="1" SourceUrl="http://localhost:10001/tick?disco" />
-    <MetadataFile FileName="tick3.xsd" MetadataType="Schema" ID="461c4625-9809-4915-ad50-179cfb091acf" SourceId="1" SourceUrl="http://localhost:10001/tick?xsd=xsd0" />
-    <MetadataFile FileName="tick4.xsd" MetadataType="Schema" ID="e898461d-dfa1-47a0-9e22-f2dbf373068a" SourceId="1" SourceUrl="http://localhost:10001/tick?xsd=xsd2" />
+    <MetadataFile FileName="tick1.disco" MetadataType="Disco" ID="4067898d-46af-4038-bc18-02bc2d5953e6" SourceId="1" SourceUrl="http://25.43.220.53:10001/tick?disco" />
+    <MetadataFile FileName="CurrencyResultSummaries.wsdl" MetadataType="Wsdl" ID="c42d3e3c-e77d-4ca8-b439-fda8533532bf" SourceId="1" SourceUrl="http://25.43.220.53:10001/tick?wsdl" />
+    <MetadataFile FileName="tick2.xsd" MetadataType="Schema" ID="8cf89ed7-3605-4816-85a4-99b857d34c17" SourceId="1" SourceUrl="http://25.43.220.53:10001/tick?xsd=xsd1" />
+    <MetadataFile FileName="tick21.xsd" MetadataType="Schema" ID="d551ec61-82b0-4e0b-8a24-47eda6515999" SourceId="1" SourceUrl="http://25.43.220.53:10001/tick?xsd=xsd2" />
+    <MetadataFile FileName="tick22.xsd" MetadataType="Schema" ID="8f11909b-2e79-416c-b0de-6672b97939cf" SourceId="1" SourceUrl="http://25.43.220.53:10001/tick?xsd=xsd0" />
+    <MetadataFile FileName="tick23.xsd" MetadataType="Schema" ID="504fbc06-0ac1-4ce0-8bee-31faed3f6ff0" SourceId="1" SourceUrl="http://25.43.220.53:10001/tick?xsd=xsd3" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

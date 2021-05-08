@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:import schemaLocation="http://localhost:10001/tick?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfCallbackServiceContract.APIConnection" />
+  <xs:import schemaLocation="http://25.43.220.53:10001/tick?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfCallbackServiceContract.APIConnection" />
   <xs:element name="GetResultSummaries">
     <xs:complexType>
       <xs:sequence>

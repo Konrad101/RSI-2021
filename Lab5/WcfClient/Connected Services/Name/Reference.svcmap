@@ -22,11 +22,11 @@
     <MetadataSource Address="http://localhost:10001/name" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="CurrencyNameProvider.wsdl" MetadataType="Wsdl" ID="565f7d71-93b9-4ed8-aa87-d7c65aed338f" SourceId="1" SourceUrl="http://localhost:10001/name?wsdl" />
-    <MetadataFile FileName="name.xsd" MetadataType="Schema" ID="db07cb25-66ff-4ac7-ac3b-0e64a8412fef" SourceId="1" SourceUrl="http://localhost:10001/name?xsd=xsd0" />
-    <MetadataFile FileName="name.disco" MetadataType="Disco" ID="bdb9c51d-06c1-47ee-a971-fd86d3d9bfd2" SourceId="1" SourceUrl="http://localhost:10001/name?disco" />
-    <MetadataFile FileName="name1.xsd" MetadataType="Schema" ID="257122b3-2820-4656-9d42-e8308399c045" SourceId="1" SourceUrl="http://localhost:10001/name?xsd=xsd1" />
-    <MetadataFile FileName="name2.xsd" MetadataType="Schema" ID="25095f04-973a-4d68-93d2-aceffd037534" SourceId="1" SourceUrl="http://localhost:10001/name?xsd=xsd2" />
+    <MetadataFile FileName="name3.xsd" MetadataType="Schema" ID="59a29539-f876-460f-a4b3-b57f52a0071a" SourceId="1" SourceUrl="http://25.43.220.53:10001/name?xsd=xsd1" />
+    <MetadataFile FileName="name1.disco" MetadataType="Disco" ID="ee1ca004-0a67-494a-afcb-a0c58d80512f" SourceId="1" SourceUrl="http://25.43.220.53:10001/name?disco" />
+    <MetadataFile FileName="CurrencyNameProvider1.wsdl" MetadataType="Wsdl" ID="b17f7942-f7d1-4034-bc2d-10b9f7fd9fec" SourceId="1" SourceUrl="http://25.43.220.53:10001/name?wsdl" />
+    <MetadataFile FileName="name31.xsd" MetadataType="Schema" ID="0faaf354-4a73-4e01-ba6c-7003dc9f0a07" SourceId="1" SourceUrl="http://25.43.220.53:10001/name?xsd=xsd2" />
+    <MetadataFile FileName="name32.xsd" MetadataType="Schema" ID="9202ba56-30de-4751-95b5-73ba220f2ce4" SourceId="1" SourceUrl="http://25.43.220.53:10001/name?xsd=xsd0" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

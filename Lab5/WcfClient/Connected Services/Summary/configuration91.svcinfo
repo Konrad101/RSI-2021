@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="XaGY+J2YjJpRWOx5Y1eeRyJw0PgffVUmrHfsBXJ28+Q=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="0Kf5F8pwhOUPDyHddmUDeZbcVUsR471BkV01SBQS3u4=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="wsDualHttpBinding" name="WSDualHttpBinding_ICurrencyResultSummaries">
       <properties>
@@ -97,10 +97,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="WSDualHttpBinding_ICurrencyResultSummaries" contract="Summary.ICurrencyResultSummaries" bindingType="wsDualHttpBinding" address="http://localhost:10001/summary/currencyResultSummary" bindingConfiguration="WSDualHttpBinding_ICurrencyResultSummaries">
+    <endpoint name="WSDualHttpBinding_ICurrencyResultSummaries" contract="Summary.ICurrencyResultSummaries" bindingType="wsDualHttpBinding" address="http://25.43.220.53:10001/summary/currencyResultSummary" bindingConfiguration="WSDualHttpBinding_ICurrencyResultSummaries">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://localhost:10001/summary/currencyResultSummary</serializedValue>
+          <serializedValue>http://25.43.220.53:10001/summary/currencyResultSummary</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

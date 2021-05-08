@@ -22,12 +22,12 @@
     <MetadataSource Address="http://localhost:10001/summary" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="summary.disco" MetadataType="Disco" ID="cbb130cd-956d-4087-962e-916f3c8263dd" SourceId="1" SourceUrl="http://localhost:10001/summary?disco" />
-    <MetadataFile FileName="summary1.xsd" MetadataType="Schema" ID="a219a56b-f5ae-40f2-9be6-29486abf961f" SourceId="1" SourceUrl="http://localhost:10001/summary?xsd=xsd2" />
-    <MetadataFile FileName="CurrencyTickProvider.wsdl" MetadataType="Wsdl" ID="6bba8ebf-066c-429a-857a-23704cbec2fe" SourceId="1" SourceUrl="http://localhost:10001/summary?wsdl" />
-    <MetadataFile FileName="summary2.xsd" MetadataType="Schema" ID="ff16952e-d2d4-4639-8a52-7eb20a286b4a" SourceId="1" SourceUrl="http://localhost:10001/summary?xsd=xsd1" />
-    <MetadataFile FileName="summary3.xsd" MetadataType="Schema" ID="d4a5bb37-53aa-4d53-86f3-64b13be388bd" SourceId="1" SourceUrl="http://localhost:10001/summary?xsd=xsd0" />
-    <MetadataFile FileName="summary4.xsd" MetadataType="Schema" ID="e7ee77e2-b86b-4e75-b3dd-4dd8691f8125" SourceId="1" SourceUrl="http://localhost:10001/summary?xsd=xsd3" />
+    <MetadataFile FileName="summary.xsd" MetadataType="Schema" ID="3866f9c0-1e84-482f-9d88-32b04b74ad5c" SourceId="1" SourceUrl="http://25.43.220.53:10001/summary?xsd=xsd3" />
+    <MetadataFile FileName="summary1.xsd" MetadataType="Schema" ID="570c098b-75d4-4b34-8eb7-6c97babe96f4" SourceId="1" SourceUrl="http://25.43.220.53:10001/summary?xsd=xsd0" />
+    <MetadataFile FileName="summary2.xsd" MetadataType="Schema" ID="a29a9ef9-538d-4464-85d9-aebf5fa78e5f" SourceId="1" SourceUrl="http://25.43.220.53:10001/summary?xsd=xsd2" />
+    <MetadataFile FileName="summary3.xsd" MetadataType="Schema" ID="10f379c7-32ef-4454-8c53-d6f76e6a90f9" SourceId="1" SourceUrl="http://25.43.220.53:10001/summary?xsd=xsd1" />
+    <MetadataFile FileName="CurrencyResultSummaries.wsdl" MetadataType="Wsdl" ID="1ab9cd28-c033-460b-bcf0-befa54ef312e" SourceId="1" SourceUrl="http://25.43.220.53:10001/summary?wsdl" />
+    <MetadataFile FileName="summary1.disco" MetadataType="Disco" ID="c6216e15-a031-4d50-a418-250f9a538e6b" SourceId="1" SourceUrl="http://25.43.220.53:10001/summary?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
