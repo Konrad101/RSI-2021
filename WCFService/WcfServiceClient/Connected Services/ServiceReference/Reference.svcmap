@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="31ca5dbc-e3c8-4b6a-b797-374cc564f4e5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://25.44.47.26:5001/mojkalkulator" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MojKalkulator.wsdl" MetadataType="Wsdl" ID="5ac5b169-ab34-4530-b1ae-bca0a1a4f1ec" SourceId="1" SourceUrl="http://25.44.47.26:5001/mojkalkulator?wsdl" />
+    <MetadataFile FileName="mojkalkulator1.xsd" MetadataType="Schema" ID="cb5ea4d4-af17-4fcf-bb49-f923a3952bd8" SourceId="1" SourceUrl="http://25.44.47.26:5001/mojkalkulator?xsd=xsd0" />
+    <MetadataFile FileName="mojkalkulator.xsd" MetadataType="Schema" ID="89f26f47-c91c-41d8-95fd-b531408590d2" SourceId="1" SourceUrl="http://25.44.47.26:5001/mojkalkulator?xsd=xsd1" />
+    <MetadataFile FileName="mojkalkulator2.xsd" MetadataType="Schema" ID="1511a96c-b7bc-490e-9b72-9ed4ed8444f3" SourceId="1" SourceUrl="http://25.44.47.26:5001/mojkalkulator?xsd=xsd2" />
+    <MetadataFile FileName="mojkalkulator21.xsd" MetadataType="Schema" ID="49954d22-d124-4729-9f64-4f989cd88a6c" SourceId="1" SourceUrl="http://25.44.47.26:5001/mojkalkulator?xsd=xsd3" />
+    <MetadataFile FileName="mojkalkulator.disco" MetadataType="Disco" ID="2d389d74-92d4-4cda-b240-32c75969388d" SourceId="1" SourceUrl="http://25.44.47.26:5001/mojkalkulator?disco" />
+    <MetadataFile FileName="mojkalkulator22.xsd" MetadataType="Schema" ID="540c96c7-4c1a-4228-b8f8-93d802637bcc" SourceId="1" SourceUrl="http://25.44.47.26:5001/mojkalkulator?xsd=xsd4" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

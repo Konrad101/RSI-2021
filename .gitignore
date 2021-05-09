@@ -1,0 +1,12 @@
+
+WCFService/.vs/
+
+*.sln
+
+Lab5/packages/
+
+bin/
+
+obj/
+
+Properties/
