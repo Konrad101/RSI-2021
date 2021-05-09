@@ -66,17 +66,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Connected Services\Name\CurrencyNameProvider.wsdl" />
-    <None Include="Connected Services\Name\name.xsd">
+    <None Include="Connected Services\Name\CurrencyNameProvider1.wsdl" />
+    <None Include="Connected Services\Name\name3.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\Name\name1.xsd">
+    <None Include="Connected Services\Name\name31.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\Name\name2.xsd">
+    <None Include="Connected Services\Name\name32.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\Summary\CurrencyTickProvider.wsdl" />
+    <None Include="Connected Services\Summary\CurrencyResultSummaries.wsdl" />
+    <None Include="Connected Services\Summary\summary.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Connected Services\Summary\summary1.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -86,20 +89,17 @@
     <None Include="Connected Services\Summary\summary3.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\Summary\summary4.xsd">
+    <None Include="Connected Services\Tick\CurrencyResultSummaries.wsdl" />
+    <None Include="Connected Services\Tick\tick2.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\Tick\CurrencyTickProvider.wsdl" />
-    <None Include="Connected Services\Tick\tick.xsd">
+    <None Include="Connected Services\Tick\tick21.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\Tick\tick1.xsd">
+    <None Include="Connected Services\Tick\tick22.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\Tick\tick3.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\Tick\tick4.xsd">
+    <None Include="Connected Services\Tick\tick23.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Properties\DataSources\WcfCallbackServiceContract.Equation.datasource" />
@@ -111,9 +111,6 @@
     <WCFMetadataStorage Include="Connected Services\Name\" />
     <WCFMetadataStorage Include="Connected Services\Summary\" />
     <WCFMetadataStorage Include="Connected Services\Tick\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\Name\name.disco" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\Name\configuration91.svcinfo" />
@@ -128,9 +125,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\Tick\tick.disco" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Connected Services\Tick\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
@@ -141,9 +135,6 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\Summary\summary.disco" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\Summary\configuration91.svcinfo" />
@@ -162,6 +153,15 @@
       <Project>{27f1929a-f8cd-40c7-8448-3f6f13de3f4b}</Project>
       <Name>WcfCallbackServiceContract</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\Name\name1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\Summary\summary1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\Tick\tick1.disco" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

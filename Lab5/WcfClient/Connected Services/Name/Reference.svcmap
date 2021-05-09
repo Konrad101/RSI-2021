@@ -19,7 +19,7 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:10001/name" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://25.43.220.53:10001/name" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
     <MetadataFile FileName="name3.xsd" MetadataType="Schema" ID="59a29539-f876-460f-a4b3-b57f52a0071a" SourceId="1" SourceUrl="http://25.43.220.53:10001/name?xsd=xsd1" />

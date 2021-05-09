@@ -20,7 +20,8 @@ namespace WcfClient
             WriteLine("Konrad Hajduga 246995");
             WriteLine("Radosław Ścigała 246997");
             WriteLine(DateTime.Now);
-            WriteLine(Environment.MachineName + "\n");
+            WriteLine(Environment.MachineName);
+            WriteLine(Environment.UserName + "\n");
         }
 
         private static int GetNumberFromUser()

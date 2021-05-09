@@ -2,6 +2,7 @@
 using System.ServiceModel;
 using System.ServiceModel.Description;
 using WcfCallbackServiceContract;
+using static System.Console;
 
 namespace WcfHost
 {
@@ -11,10 +12,11 @@ namespace WcfHost
 
         private static void PrintInfo()
         {
-            Console.WriteLine("Konrad Hajduga 246995");
-            Console.WriteLine("Radosław Ścigała 246997");
-            Console.WriteLine(DateTime.Now);
-            Console.WriteLine(Environment.MachineName + "\n");
+            WriteLine("Konrad Hajduga 246995");
+            WriteLine("Radosław Ścigała 246997");
+            WriteLine(DateTime.Now);
+            WriteLine(Environment.MachineName);
+            WriteLine(Environment.UserName + "\n");
         }
 
         static void Main(string[] args)
@@ -27,6 +29,8 @@ namespace WcfHost
 
             BasicHttpBinding currencyNameBinding = new BasicHttpBinding();
             currencyNameHost.AddServiceEndpoint(typeof(ICurrencyNameProvider), currencyNameBinding, "currencyName");
+            currencyNameBinding.Security.Mode = BasicHttpSecurityMode.None;
+
 
             ServiceMetadataBehavior currencyNameSMB = new ServiceMetadataBehavior();
             currencyNameSMB.HttpGetEnabled = true;
@@ -38,6 +42,8 @@ namespace WcfHost
 
             WSDualHttpBinding tickBinding = new WSDualHttpBinding();
             tickHost.AddServiceEndpoint(typeof(ICurrencyTickProvider), tickBinding, "currencyTick");
+            tickBinding.Security.Mode = WSDualHttpSecurityMode.None;
+
 
             ServiceMetadataBehavior tickSMB = new ServiceMetadataBehavior();
             tickSMB.HttpGetEnabled = true;
@@ -49,6 +55,7 @@ namespace WcfHost
 
             WSDualHttpBinding summaryBinding = new WSDualHttpBinding();
             summaryHost.AddServiceEndpoint(typeof(ICurrencyResultSummaries), summaryBinding, "currencyResultSummary");
+            summaryBinding.Security.Mode = WSDualHttpSecurityMode.None;
 
             ServiceMetadataBehavior summarySMB = new ServiceMetadataBehavior();
             summarySMB.HttpGetEnabled = true;
@@ -58,22 +65,22 @@ namespace WcfHost
             {
                 currencyNameHost.Open();
                 
-                Console.WriteLine("Service - Name - is running.");
+                WriteLine("Service - Name - is running.");
                 tickHost.Open();
-                Console.WriteLine("Service - Tick - is running.");
+                WriteLine("Service - Tick - is running.");
                 summaryHost.Open();
-                Console.WriteLine("Service - Summary - is running.");
+                WriteLine("Service - Summary - is running.");
 
-                Console.WriteLine("Press <ENTER> to stop the host.");
-                Console.WriteLine();
-                Console.ReadLine();
+                WriteLine("Press <ENTER> to stop the host.");
+                WriteLine();
+                ReadLine();
                 currencyNameHost.Close();
                 tickHost.Close();
                 summaryHost.Close();
             }
             catch (CommunicationException ce)
             {
-                Console.WriteLine("Exception occurred: {0}", ce.Message);
+                WriteLine("Exception occurred: {0}", ce.Message);
                 currencyNameHost.Abort();
                 tickHost.Abort();
                 summaryHost.Abort();
