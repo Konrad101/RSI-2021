@@ -1,0 +1,12 @@
+
+WcfREST/.vs/
+
+*.sln
+
+WcfREST/packages/
+
+bin/
+
+obj/
+
+Properties/
